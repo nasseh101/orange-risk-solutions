@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/organic-d16def78-0e0f-4d39-8a06-44d64b741270/styles.css">
+<script src="_ds/organic-d16def78-0e0f-4d39-8a06-44d64b741270/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<style>
+  body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); }
+  a { color: var(--color-accent-700); text-decoration: none; }
+  a:hover:not(.btn) { color: var(--color-accent-600); }
+  a.btn-primary, a.btn-primary:hover { color: var(--color-bg); }
+  h1, h2, h3 { font-family: var(--font-heading); font-weight: 400; margin: 0; line-height: 1.05; }
+  p { margin: 0; }
+  ul { margin: 0; padding: 0; list-style: none; }
+</style>
+</helmet>
+
+<div style="background: var(--color-bg); min-height: 100vh; overflow-x: hidden;">
+
+  <header style="position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--color-bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--color-divider);">
+    <div style="max-width: 1180px; margin: 0 auto; padding: 12px 32px; display: flex; align-items: center; gap: 32px;">
+      <a href="#top" style="display: flex; align-items: center; gap: 10px; color: var(--color-text);">
+        <img src="assets/logo-orange.png" alt="Orange Risk Solutions Ltd — Insurance Brokers" style="width: 190px; height: auto; display: block; mix-blend-mode: multiply;">
+      </a>
+      <nav style="margin-left: auto; display: flex; align-items: center; gap: 26px; font-size: 15px; font-weight: 600;">
+        <a href="#about" style="color: var(--color-neutral-800);">About</a>
+        <a href="#services" style="color: var(--color-neutral-800);">Services</a>
+        <a href="#products" style="color: var(--color-neutral-800);">Products</a>
+        <a href="#board" style="color: var(--color-neutral-800);">Board</a>
+        <a href="#contact" class="btn btn-primary" style="font-size: 15px;">Get a quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="top" style="max-width: 1180px; margin: 0 auto; padding: 84px 32px 72px; display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,0.85fr); gap: 56px; align-items: center;">
+    <div>
+      <span class="tag tag-accent" style="margin-bottom: 22px; display: inline-block; text-transform: uppercase; letter-spacing: 0.08em;">Protecting today · Securing tomorrow · Empowering life</span>
+      <h1 style="font-size: 62px; letter-spacing: -0.02em; max-width: 13ch;">Insurance advice that puts you first.</h1>
+      <p style="margin-top: 24px; font-size: 19px; line-height: 1.6; max-width: 52ch; color: var(--color-neutral-800);">Orange Risk Solutions (ORS) Limited is an insurance broking firm providing General and Life insurance advisory with a focus on quality service delivery and professional expertise.</p>
+      <div style="margin-top: 34px; display: flex; flex-wrap: wrap; gap: 12px;">
+        <a href="#contact" class="btn btn-primary">Talk to a broker</a>
+        <a href="#products" class="btn btn-secondary">See our products</a>
+      </div>
+      <div style="margin-top: 46px; display: flex; flex-wrap: wrap; gap: 34px; align-items: flex-start;">
+        <div><div style="font-family: var(--font-heading); font-size: 26px; color: var(--color-accent-700);">PACRA</div><div style="font-size: 14px; color: var(--color-neutral-700); margin-top: 4px;">Registered 1 March 2022</div></div>
+        <div><div style="font-family: var(--font-heading); font-size: 26px; color: var(--color-accent-700);">PIA</div><div style="font-size: 14px; color: var(--color-neutral-700); margin-top: 4px;">Licensed 1 January 2023</div></div>
+        <div><div style="font-family: var(--font-heading); font-size: 26px; color: var(--color-accent-700);">IBAZ</div><div style="font-size: 14px; color: var(--color-neutral-700); margin-top: 4px;">Fully subscribed member</div></div>
+      </div>
+    </div>
+    <div style="position: relative; min-width: 0;">
+      <div style="position: absolute; inset: -26px -26px auto auto; width: 200px; height: 200px; border-radius: 999px; background: var(--color-accent-200);"></div>
+      <div class="washed" style="position: relative; border-radius: var(--radius-lg); overflow: hidden; height: 440px;">
+        <image-slot id="ors-hero" src="assets/umbrella.png" style="width:100%;height:100%" shape="rect" placeholder="Drop a hero photograph — team, office or client meeting"></image-slot>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" style="background: var(--color-surface);">
+    <div style="max-width: 1180px; margin: 0 auto; padding: 84px 32px; display: grid; grid-template-columns: minmax(0,0.9fr) minmax(0,1.1fr); gap: 56px;">
+      <div>
+        <h2 style="font-size: 42px; letter-spacing: -0.015em;">About the company</h2>
+        <div style="margin-top: 20px; width: 68px; height: 6px; border-radius: 999px; background: var(--color-accent);"></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 20px; font-size: 17px; line-height: 1.7; color: var(--color-neutral-800);">
+        <p>Officially registered on 1st March 2022 by PACRA and licensed by the Pensions and Insurance Authority (PIA) on 1st January 2023, the organization is a fully subscribed member of the Insurance Brokers Association of Zambia (IBAZ).</p>
+        <p>The organisation consists of seasoned professionals dedicated to providing quality and tailored services to meet the various needs of large corporates, small and medium enterprises (SMEs), individuals and non-governmental organisations.</p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 10px;">
+          <div style="background: var(--color-bg); border-radius: var(--radius-lg); padding: 26px; display: flex; flex-direction: column;">
+            <div style="font-size: 13px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--color-accent-700);">Our vision</div>
+            <p style="margin: auto 0; padding: 14px 0; font-family: var(--font-heading); font-size: 21px; line-height: 1.3;">To be the number one insurtech broker in Zambia.</p>
+          </div>
+          <div style="background: var(--color-bg); border-radius: var(--radius-lg); padding: 26px; display: flex; flex-direction: column;">
+            <div style="font-size: 13px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--color-accent-2-700);">Our mission</div>
+            <p style="margin: auto 0; padding: 14px 0; font-family: var(--font-heading); font-size: 21px; line-height: 1.3;">Innovative insurance and risk management, for protection and peace of mind.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width: 1180px; margin: 0 auto; padding: 84px 32px;">
+    <h2 style="font-size: 42px; letter-spacing: -0.015em;">Why choose us?</h2>
+    <div style="margin-top: 40px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px;">
+      <div class="card elev-sm" style="padding: 30px;">
+        <div style="width: 46px; height: 46px; border-radius: 999px; background: var(--color-accent-200); display: flex; align-items: center; justify-content: center; color: var(--color-accent-700);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9"></path><path d="M14 17H5"></path><circle cx="17" cy="17" r="3"></circle><circle cx="7" cy="7" r="3"></circle></svg>
+        </div>
+        <h3 style="margin-top: 20px; font-size: 24px;">Professional</h3>
+        <p style="margin-top: 12px; font-size: 16px; line-height: 1.65; color: var(--color-neutral-800);">Our focus is YOU. We enable you to concentrate on your core business whilst we leverage our professional expertise and knowledge of the insurance market to ensure that the right decisions are made in purchasing appropriate insurance security on the most favorable terms and at the most competitive price.</p>
+      </div>
+      <div class="card elev-sm" style="padding: 30px;">
+        <div style="width: 46px; height: 46px; border-radius: 999px; background: var(--color-accent-2-200); display: flex; align-items: center; justify-content: center; color: var(--color-accent-2-700);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
+        </div>
+        <h3 style="margin-top: 20px; font-size: 24px;">Trusted</h3>
+        <p style="margin-top: 12px; font-size: 16px; line-height: 1.65; color: var(--color-neutral-800);">By providing you tailored insurance services, we will ensure that information relayed to you is as truthful as possible, even when it may not suit us.</p>
+      </div>
+      <div class="card elev-sm" style="padding: 30px;">
+        <div style="width: 46px; height: 46px; border-radius: 999px; background: var(--color-accent-200); display: flex; align-items: center; justify-content: center; color: var(--color-accent-700);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M14.5 9.5h-4a1.75 1.75 0 0 0 0 3.5h3a1.75 1.75 0 0 1 0 3.5h-4"></path><path d="M12 7v10"></path></svg>
+        </div>
+        <h3 style="margin-top: 20px; font-size: 24px;">Affordable</h3>
+        <p style="margin-top: 12px; font-size: 16px; line-height: 1.65; color: var(--color-neutral-800);">Our services do not come at an extra cost to you. We endeavor to ensure that through our relationships, we provide you the most convenient and affordable competitive rates from the insurance market.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" style="background: var(--color-accent-900); color: var(--color-neutral-100);">
+    <div style="max-width: 1180px; margin: 0 auto; padding: 84px 32px;">
+      <h2 style="font-size: 42px; letter-spacing: -0.015em; color: var(--color-neutral-100);">Our services</h2>
+      <div style="margin-top: 44px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid color-mix(in srgb, #f9f4ed 22%, transparent);">
+        <div style="padding: 32px 32px 32px 0; border-right: 1px solid color-mix(in srgb, #f9f4ed 22%, transparent);">
+          <div style="font-family: var(--font-heading); font-size: 15px; color: var(--color-accent-400);">01</div>
+          <h3 style="margin-top: 14px; font-size: 27px; color: var(--color-neutral-100);">Risk management</h3>
+          <p style="margin-top: 14px; font-size: 16px; line-height: 1.65; color: var(--color-neutral-300);">Check for any gaps in policies identified and providing an end-to-end risk management.</p>
+        </div>
+        <div style="padding: 32px; border-right: 1px solid color-mix(in srgb, #f9f4ed 22%, transparent);">
+          <div style="font-family: var(--font-heading); font-size: 15px; color: var(--color-accent-400);">02</div>
+          <h3 style="margin-top: 14px; font-size: 27px; color: var(--color-neutral-100);">Policy selection</h3>
+          <p style="margin-top: 14px; font-size: 16px; line-height: 1.65; color: var(--color-neutral-300);">Selecting the best risk carrier who suits your insurance service needs. Ensure business placement with the right insurer based on your needs.</p>
+        </div>
+        <div style="padding: 32px 0 32px 32px;">
+          <div style="font-family: var(--font-heading); font-size: 15px; color: var(--color-accent-400);">03</div>
+          <h3 style="margin-top: 14px; font-size: 27px; color: var(--color-neutral-100);">Claims management</h3>
+          <p style="margin-top: 14px; font-size: 16px; line-height: 1.65; color: var(--color-neutral-300);">We will handle all insurance claims processes from end to end which will include putting together all claims documentation as required by the carrying insurer up to the point of settlement and ensuring strict adherence to agreed service level agreements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" style="max-width: 1180px; margin: 0 auto; padding: 84px 32px;">
+    <h2 style="font-size: 42px; letter-spacing: -0.015em; max-width: 20ch;">Our specialized products and services</h2>
+    <p style="margin-top: 18px; font-size: 17px; line-height: 1.7; color: var(--color-neutral-800); max-width: 62ch;">We offer our Specialized Broking Proposition (SBP) services to both individuals and corporates for the following products.</p>
+    <div style="margin-top: 44px; display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,0.85fr); gap: 22px; align-items: start;">
+      <div style="background: var(--color-surface); border-radius: var(--radius-lg); padding: 34px;">
+        <h3 style="font-size: 26px;">General insurance policies</h3>
+        <ul style="margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; font-size: 16px; color: var(--color-neutral-800);">
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Agriculture Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Bonds Business</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Engineering Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Fire Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Legal Expenses Insurance</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Liability Insurance</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Marine and Aviation Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Motor Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Miscellaneous Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Microinsurance</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Pecuniary Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Specialized Risks Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-divider);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent); margin-top: 8px;"></span><span>Travel Insurance</span></li>
+        </ul>
+      </div>
+      <div style="background: var(--color-accent-2-200); border-radius: var(--radius-lg); padding: 34px;">
+        <h3 style="font-size: 26px;">Life and pensions policies</h3>
+        <ul style="margin-top: 20px; display: grid; gap: 0; font-size: 16px; color: var(--color-accent-2-900);">
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid color-mix(in srgb, var(--color-accent-2-900) 18%, transparent);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent-2-700); margin-top: 8px;"></span><span>Credit Life</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid color-mix(in srgb, var(--color-accent-2-900) 18%, transparent);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent-2-700); margin-top: 8px;"></span><span>Funeral Expenses Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid color-mix(in srgb, var(--color-accent-2-900) 18%, transparent);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent-2-700); margin-top: 8px;"></span><span>Gratuity Plans</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid color-mix(in srgb, var(--color-accent-2-900) 18%, transparent);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent-2-700); margin-top: 8px;"></span><span>Life Assurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid color-mix(in srgb, var(--color-accent-2-900) 18%, transparent);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent-2-700); margin-top: 8px;"></span><span>Medical Insurances</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid color-mix(in srgb, var(--color-accent-2-900) 18%, transparent);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent-2-700); margin-top: 8px;"></span><span>Microinsurance</span></li>
+          <li style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid color-mix(in srgb, var(--color-accent-2-900) 18%, transparent);"><span style="flex: none; width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent-2-700); margin-top: 8px;"></span><span>Pension Plans</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: var(--color-surface);">
+    <div style="max-width: 1180px; margin: 0 auto; padding: 84px 32px; display: grid; grid-template-columns: minmax(0,0.9fr) minmax(0,1.1fr); gap: 56px;">
+      <div>
+        <h2 style="font-size: 42px; letter-spacing: -0.015em; max-width: 12ch;">Why use a broker?</h2>
+        <p style="margin-top: 20px; font-size: 17px; line-height: 1.7; color: var(--color-neutral-800);">A broker represents the client by providing the following services among others.</p>
+        <div style="margin-top: 28px; background: var(--color-accent-200); border-radius: var(--radius-lg); padding: 24px; font-size: 16px; line-height: 1.6; color: var(--color-accent-900);">And all this comes at no extra charge on your insurance premium as commission is paid by the insurance company.</div>
+      </div>
+      <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+        <li style="background: var(--color-bg); border-radius: var(--radius-md); padding: 18px 20px; font-size: 16px; font-weight: 600;">Identify risk inherent in your business / property</li>
+        <li style="background: var(--color-bg); border-radius: var(--radius-md); padding: 18px 20px; font-size: 16px; font-weight: 600;">Recommend most suitable cover for the risks</li>
+        <li style="background: var(--color-bg); border-radius: var(--radius-md); padding: 18px 20px; font-size: 16px; font-weight: 600;">Summarize all possible options</li>
+        <li style="background: var(--color-bg); border-radius: var(--radius-md); padding: 18px 20px; font-size: 16px; font-weight: 600;">Negotiate for lower premiums and widest possible coverage</li>
+        <li style="background: var(--color-bg); border-radius: var(--radius-md); padding: 18px 20px; font-size: 16px; font-weight: 600;">Insurer recommendation and assessment</li>
+        <li style="background: var(--color-bg); border-radius: var(--radius-md); padding: 18px 20px; font-size: 16px; font-weight: 600;">Assist with claims procedures</li>
+        <li style="background: var(--color-bg); border-radius: var(--radius-md); padding: 18px 20px; font-size: 16px; font-weight: 600;">Process renewal</li>
+        <li style="background: var(--color-bg); border-radius: var(--radius-md); padding: 18px 20px; font-size: 16px; font-weight: 600;">After sale services</li>
+      </ul>
+    </div>
+  </section>
+
+  <section style="max-width: 1180px; margin: 0 auto; padding: 84px 32px;">
+    <h2 style="font-size: 42px; letter-spacing: -0.015em;">Our shared values</h2>
+    <p style="margin-top: 18px; font-size: 17px; line-height: 1.7; color: var(--color-neutral-800); max-width: 74ch;">As we pursue new horizons of business success, we conduct our affairs consistently with the highest moral, legal and ethical standards, as well as comply with all laws governing our operations. For our associates, agents, clients, suppliers and community, we will strive to be:</p>
+    <div style="margin-top: 40px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px;">
+      <div style="border-top: 3px solid var(--color-accent); padding-top: 18px;"><h3 style="font-size: 25px;">Quick.</h3><p style="margin-top: 8px; font-size: 16px; color: var(--color-neutral-800);">To communicate. To respond. To solve.</p></div>
+      <div style="border-top: 3px solid var(--color-accent-2); padding-top: 18px;"><h3 style="font-size: 25px;">Innovative.</h3><p style="margin-top: 8px; font-size: 16px; color: var(--color-neutral-800);">In our products. Our technology. Our thinking.</p></div>
+      <div style="border-top: 3px solid var(--color-accent); padding-top: 18px;"><h3 style="font-size: 25px;">Ethical.</h3><p style="margin-top: 8px; font-size: 16px; color: var(--color-neutral-800);">In challenge. In adapting. Bending, but never breaking.</p></div>
+      <div style="border-top: 3px solid var(--color-accent-2); padding-top: 18px;"><h3 style="font-size: 25px;">Sensible.</h3><p style="margin-top: 8px; font-size: 16px; color: var(--color-neutral-800);">To listen. To weigh all sides. To be prudent.</p></div>
+      <div style="border-top: 3px solid var(--color-accent); padding-top: 18px;"><h3 style="font-size: 25px;">Reliable.</h3><p style="margin-top: 8px; font-size: 16px; color: var(--color-neutral-800);">We will be dependable.</p></div>
+      <div style="border-top: 3px solid var(--color-accent-2); padding-top: 18px;"><h3 style="font-size: 25px;">Tech-savvy.</h3><p style="margin-top: 8px; font-size: 16px; color: var(--color-neutral-800);">We will be efficient. Effective. Easy to do business with.</p></div>
+    </div>
+  </section>
+
+  <section id="board" style="background: var(--color-surface);">
+    <div style="max-width: 1180px; margin: 0 auto; padding: 84px 32px;">
+      <h2 style="font-size: 42px; letter-spacing: -0.015em;">Our board</h2>
+      <div style="margin-top: 44px; display: grid; gap: 20px;">
+        <div style="background: var(--color-bg); border-radius: var(--radius-lg); padding: 30px; display: grid; grid-template-columns: 132px 1fr; gap: 30px; align-items: start;">
+          <div class="washed" style="border-radius: 999px; overflow: hidden; width: 132px; height: 132px;">
+            <image-slot id="bd-mauwa" src="assets/mauwa-yondela.png" shape="circle" placeholder="Portrait"></image-slot>
+          </div>
+          <div>
+            <h3 style="font-size: 27px;">Mauwa Yondela</h3>
+            <div style="margin-top: 8px;"><span class="tag tag-accent">Chairperson</span></div>
+            <p style="margin-top: 16px; font-size: 16px; line-height: 1.7; color: var(--color-neutral-800); max-width: 88ch;">Mauwa is a Certified Financial Inclusion Policy Expert by the Frankfurt University. She holds a Master of Science in Economics and Finance and a Degree in Demography and Economics. She has over 15 years of international and local experience in the fields of Financial Inclusion, Insurance, Economic Empowerment, and Research. With a strong commitment to promoting equitable access to financial services, Mauwa has played a pivotal role in shaping and implementing programmes and policies that empower underserved populations and drive economic growth. She has a proven track record of collaborating with governments, regulators, insurers, financial service providers, NGOs and international organizations to design and launch innovative programmes.</p>
+          </div>
+        </div>
+        <div style="background: var(--color-bg); border-radius: var(--radius-lg); padding: 30px; display: grid; grid-template-columns: 132px 1fr; gap: 30px; align-items: start;">
+          <div class="washed" style="border-radius: 999px; overflow: hidden; width: 132px; height: 132px;">
+            <image-slot id="bd-paul" src="assets/paul-sovi.png" shape="circle" placeholder="Portrait"></image-slot>
+          </div>
+          <div>
+            <h3 style="font-size: 27px;">Paul Sovi</h3>
+            <div style="margin-top: 8px;"><span class="tag tag-accent">Chief Executive Officer</span></div>
+            <p style="margin-top: 16px; font-size: 16px; line-height: 1.7; color: var(--color-neutral-800); max-width: 88ch;">Paul Sovi is a seasoned insurance and financial services professional with over a decade of experience in underwriting, claims management, broking, bancassurance, employee benefits, and microinsurance. He brings a strong track record in strategic risk management and product innovation across both short-term and long-term insurance sectors. With five years in the fintech industry, Paul has played a key role in driving digital transformation and financial inclusion, having worked with market-leading insurers and Cellulant Zambia, a pioneering fintech firm in Africa. His expertise spans business development, strategic partnerships, and technology-driven insurance solutions, positioning him as a dynamic leader in the evolving financial landscape.</p>
+          </div>
+        </div>
+        <div style="background: var(--color-bg); border-radius: var(--radius-lg); padding: 30px; display: grid; grid-template-columns: 132px 1fr; gap: 30px; align-items: start;">
+          <div class="washed" style="border-radius: 999px; overflow: hidden; width: 132px; height: 132px;">
+            <image-slot id="bd-isabel" src="assets/isabel-mukwasa.png" shape="circle" placeholder="Portrait"></image-slot>
+          </div>
+          <div>
+            <h3 style="font-size: 27px;">Isabel M. Mukwasa</h3>
+            <div style="margin-top: 8px;"><span class="tag tag-accent">Board Member</span></div>
+            <p style="margin-top: 16px; font-size: 16px; line-height: 1.7; color: var(--color-neutral-800); max-width: 88ch;">Isabel is a highly experienced insurance professional with 10+ years of experience in underwriting, claims management, broking, and risk management. She holds a Bachelor's Degree in Business Administration (UNILUS), a Diploma in Insurance (ZIBCT), and a Certificate in Insurance (CII, UK). With five years at the National Road Fund Agency (NRFA), Isabel has developed deep expertise in accounting, road fund management, and operational efficiency, contributing to financial oversight and strategic fund allocation.</p>
+          </div>
+        </div>
+        <div style="background: var(--color-bg); border-radius: var(--radius-lg); padding: 30px; display: grid; grid-template-columns: 132px 1fr; gap: 30px; align-items: start;">
+          <div class="washed" style="border-radius: 999px; overflow: hidden; width: 132px; height: 132px;">
+            <image-slot id="bd-namutula" src="assets/namutula-sindila.png" shape="circle" placeholder="Portrait"></image-slot>
+          </div>
+          <div>
+            <h3 style="font-size: 27px;">Namutula Sindila</h3>
+            <div style="margin-top: 8px;"><span class="tag tag-accent">Board Member</span></div>
+            <p style="margin-top: 16px; font-size: 16px; line-height: 1.7; color: var(--color-neutral-800); max-width: 88ch;">Namutula has over 15 years' experience in customer service, strategic planning and implementations in logistics, distribution, supply chain, sales and marketing. She holds a Master degree in Development Studies from Cavendish University, a Bachelor of Arts in Development Studies and a post graduate diploma in marketing. Ms. Sindila is Executive Director for Vision Zambia Initiative, specialized in community mobilization, programme management and an expert in social media management.</p>
+          </div>
+        </div>
+        <div style="background: var(--color-bg); border-radius: var(--radius-lg); padding: 30px; display: grid; grid-template-columns: 132px 1fr; gap: 30px; align-items: start;">
+          <div class="washed" style="border-radius: 999px; overflow: hidden; width: 132px; height: 132px;">
+            <image-slot id="bd-kalenga" src="assets/kalenga-chambatu.png" shape="circle" placeholder="Portrait"></image-slot>
+          </div>
+          <div>
+            <h3 style="font-size: 27px;">Kalenga Chambatu</h3>
+            <div style="margin-top: 8px;"><span class="tag tag-accent">Board Member</span></div>
+            <p style="margin-top: 16px; font-size: 16px; line-height: 1.7; color: var(--color-neutral-800); max-width: 88ch;">Marketing maverick and award-winning content creator. Highly seasoned marketer with a proven track record of success, with expertise spanning insurance, radio and podcast hosting. "I craft innovative stories and amplify brands, helping businesses shine bright in the market."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="background: var(--color-accent-900); color: var(--color-neutral-100);">
+    <div style="max-width: 1180px; margin: 0 auto; padding: 84px 32px 60px;">
+      <div style="display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,0.9fr); gap: 56px; align-items: start;">
+        <div>
+          <h2 style="font-size: 46px; letter-spacing: -0.02em; color: var(--color-neutral-100); max-width: 15ch;">Let's find the right cover for you.</h2>
+          <p style="margin-top: 20px; font-size: 18px; line-height: 1.65; color: var(--color-neutral-300); max-width: 46ch;">Tell us about your business, your household or your team, and we will bring you options from across the market.</p>
+          <div style="margin-top: 32px; display: flex; flex-wrap: wrap; gap: 12px;">
+            <a href="mailto:info@orange.net.zm" class="btn btn-primary">Email info@orange.net.zm</a>
+            <a href="tel:+260211372767" class="btn" style="background: transparent; color: var(--color-neutral-100); border: 1px solid color-mix(in srgb, #f9f4ed 40%, transparent);">Call 0211 372 767</a>
+          </div>
+        </div>
+        <div style="background: color-mix(in srgb, #f9f4ed 8%, transparent); border-radius: var(--radius-lg); padding: 32px;">
+          <div style="font-size: 13px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--color-accent-400);">Head office</div>
+          <p style="margin-top: 14px; font-family: var(--font-heading); font-size: 22px; color: var(--color-neutral-100);">Orange Risk Solutions Limited</p>
+          <p style="margin-top: 12px; font-size: 16px; line-height: 1.7; color: var(--color-neutral-300);">2nd Floor, Elunda 2<br>Corner of Chikwa Road &amp; Los Angeles Blvd<br>Rhodes Park, Lusaka, Zambia</p>
+          <div style="margin-top: 20px; height: 1px; background: color-mix(in srgb, #f9f4ed 20%, transparent);"></div>
+          <p style="margin-top: 20px; font-size: 16px; line-height: 1.8; color: var(--color-neutral-300);">Tel: 0211 372 767<br>info@orange.net.zm</p>
+        </div>
+      </div>
+      <div style="margin-top: 64px; padding-top: 24px; border-top: 1px solid color-mix(in srgb, #f9f4ed 20%, transparent); display: flex; flex-wrap: wrap; gap: 18px; justify-content: space-between; font-size: 14px; color: var(--color-neutral-400);">
+        <span>© 2025 Orange Risk Solutions Company Limited. TPIN 2132642504.</span>
+        <span>Registered by PACRA · Licensed by the Pensions and Insurance Authority · Member of IBAZ</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>
